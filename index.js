@@ -12,5 +12,5 @@ app.get("/blog", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  ` app now running on port ${PORT}`;
+  console.log(`app now running on port ${PORT}`);
 });
